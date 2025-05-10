@@ -28,7 +28,7 @@ class TranslationError(Exception):
 class TranslationService:
     DEEPSEEK_API_URL = "https://api.deepseek.com/v1"
     LIBRE_API_URL = "https://6j2q5nl3-5001.uks1.devtunnels.ms"#"https://nw12kt5q-5001.use2.devtunnels.ms"
-    DEEPSEEK_API_KEY="sk-7c272739285e40fd8792537a19da9af9"
+    DEEPSEEK_API_KEY=""
     FREE_TIER_LIMIT = 500_000  # 500k characters/month
     BASE_RATE = 0.15  # $0.15 per million characters beyond limit
 
